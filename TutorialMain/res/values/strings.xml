@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudyMain</string>
+    <string name="menu_1">Call Activity by Intent (Change Background Image)</string>
+    <string name="menu_2">Send Broadcast to Sub Application</string>
+    <string name="menu_3">SQLite (Create, Read, Update, Delete)</string>
+    <string name="db_menu_1">Create</string>
+    <string name="db_menu_2">Read</string>
+    <string name="db_menu_3">Update</string>
+    <string name="db_menu_4">Delete</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+	<dimen name="normal_keyboard_key_width">100dip</dimen>			<!-- 8%p -->
+	<dimen name="normal_keyboard_key_height">70dip</dimen>			<!-- 10%p -->
+	<dimen name="engineering_keyboard_key_width">100dip</dimen>		<!-- 8%p -->
+	<dimen name="engineering_keyboard_key_height">70dip</dimen>		<!-- 10%p -->
+</resources>

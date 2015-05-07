@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.forstudy.main.MainActivity" >
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Text to save"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/db_menu_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText01"
+        android:text="@string/db_menu_1" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_menu_1" />
+
+    <Button
+        android:id="@+id/db_menu_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView01"
+        android:text="@string/db_menu_2" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_menu_2"
+        android:hint="ID to update"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText02"
+        android:hint="Text to update"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/db_menu_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText03"
+        android:text="@string/db_menu_3" />
+
+    <EditText
+        android:id="@+id/EditText04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_menu_3"
+        android:hint="ID to delete"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/db_menu_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText04"
+        android:text="@string/db_menu_4" />
+
+</RelativeLayout>

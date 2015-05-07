@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudySub</string>
+    <string name="menu_1">Start and Destroy background Service (Service receives broadcast)</string>
+    <string name="menu_2">Read other app\'s DB by Content Provider and Resolver</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

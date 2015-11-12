@@ -1,2 +1,9 @@
 # Android
-Android examples which utilizing 4 main components
+Custom keyboard - Mathematical keyboard
+
+TutorialMain, TutorialSub - Sample applications to study following main components of Android
+  - Activity
+  - Service
+  - Broadcast receiver
+  - Content provider
+  
